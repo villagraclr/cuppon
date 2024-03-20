@@ -93,15 +93,7 @@ body {
     text-decoration: none;
 }
 
-.contact {
-    background-color: #28A745;
-}
-
-nav {
-    background-color: #28A745;
-}
-
-.navbar .logo {
+.navbar .logo, footer .logo {
     width: 86px;
 }
 
@@ -112,8 +104,17 @@ Alto mínimo del card-img-top según resolución
     .card .card-img-top {
         max-height: 240px;
     }
+
+    .card .card-body .card-title {
+        min-height: 50px;
+    }
+
     .card .card-body .titulo-bajada {
-        min-height: 80px;
+        min-height: 84px;
+    }
+
+    .card .card-body .location {
+        min-height: 30px;
     }
 }
 
@@ -121,8 +122,17 @@ Alto mínimo del card-img-top según resolución
     .card .card-img-top {
         max-height: 194px;
     }
+
+    .card .card-body .card-title {
+        min-height: 70px;
+    }
+
     .card .card-body .titulo-bajada {
-        min-height: 80px;
+        min-height: 104px;
+    }
+
+    .card .card-body .location {
+        min-height: 30px;
     }
 }
 
@@ -130,15 +140,21 @@ Alto mínimo del card-img-top según resolución
     .card .card-img-top {
         max-height: 182px;
     }
+
+    .card .card-body .card-title {
+        min-height: 100px;
+    }
+
     .card .card-body .titulo-bajada {
-        min-height: 80px;
+        min-height: 152px;
+    }
+
+    .card .card-body .location {
+        min-height: 40px;
     }
 }
 
 footer {
     background: #0F0F0F 0% 0% no-repeat padding-box;
     opacity: 1;
-}
-footer .logo{
-    width: 82px;
 }
